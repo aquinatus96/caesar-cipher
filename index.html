@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Szyfr cezara</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,800" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div id="container">
+        <h1>&bull; Szyfr cezara &bull;</h1>
+        <div class="underline">
+        </div>
+
+        <form action="">
+
+            <div class="encrypt">
+                <label for="name"></label>
+                <input type="text" placeholder="wpisz wyrażenie, które chcesz zaszyfrować:" name="name" id="to-encrypt" autocomplete="off">
+
+                <label for="name"></label>
+                <input type="text" placeholder="wartość przesunięcia:" name="name" id="shifting-of-the-cipher" autocomplete="off">
+            </div>
+
+
+            <div class="encrypted">
+                <input type="submit" value="SZYFRUJ!" id="to-encrypt-btn" />
+
+                <input type="text" placeholder="zaszyfrowana wiadomość:" name="" id="encrypted-text">
+            </div>
+
+        </form>
+    </div>
+    
+      <a href="https://pl.wikipedia.org/wiki/Szyfr_Cezara" target="_blank">Dowiedz się czegoś ciekawego o szyfrze cezara!</a>
+
+    <script src="main.js" async></script>
+</body>
+
+</html>

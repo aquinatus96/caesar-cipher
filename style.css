@@ -1,0 +1,146 @@
+body {
+    background-color: #F2F3EB;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    height: 300px;
+    padding: 50px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: solid 2px #fff;
+}
+
+button,
+input {
+    color: #5A5A5A;
+    font: inherit;
+    margin: 0;
+}
+
+#container {
+    border: solid 3px #474544;
+    max-width: 768px;
+    margin: 60px auto;
+    position: relative;
+}
+
+form {
+    padding: 37.5px;
+    margin: 50px 0;
+}
+
+h1 {
+    margin-top: 80px;
+    color: #474544;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.underline {
+    border-bottom: solid 2px #474544;
+    margin: -0.512em auto;
+    width: 80px;
+}
+
+
+input[type='text'] {
+    background: none;
+    border: none;
+    border-bottom: solid 2px #474544;
+    color: #474544;
+    font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
+    text-transform: uppercase;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+input[type='text']:focus {
+    outline: none;
+    padding: 0 0 0.875em 0;
+}
+
+::-webkit-input-placeholder {
+    color: #474544;
+}
+
+:-moz-placeholder {
+    color: #474544;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: #474544;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #474544;
+}
+
+#to-encrypt-btn {
+    position: relative;
+    background: none;
+    letter-spacing: 2px;
+    border: solid 2px #474544;
+    margin-bottom: 60px;
+    color: #474544;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.875em;
+    outline: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+}
+
+#to-encrypt-btn:hover {
+    background-color: #474544;
+    color: #F2F3EB;
+}
+
+.encrypt,
+.encrypted {
+    display: block;
+    text-align: center;
+}
+
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background: none !important;
+    background-image: none !important;
+    color: #474544 !important;
+}
+
+a {
+    max-width: 768px;
+    padding: 25px 0;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 800;
+    color: #474544;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: solid 3px #474544;
+}
+
+a:hover {
+    background-color: #474544;
+    color: #F2F3EB;
+}
